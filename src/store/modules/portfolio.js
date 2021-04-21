@@ -1,12 +1,12 @@
 export default  {
 	state:{
-		funds: 300,
+		funds: 500,
 		stocks: []		
 	},
 
 	mutations: {
 		buyStock(state, {stockID, quantity, stockPrice}) {
-			const record = state.stocks.find(e => e.id ==stockID)
+			const record = state.stocks.find(e => e.id == stockID)
 			if (record) {
 				record.quantity += quantity
 			} else {
