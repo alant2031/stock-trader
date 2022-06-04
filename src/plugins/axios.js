@@ -4,7 +4,7 @@ import axios from 'axios'
 Vue.use({
 	install(Vue) {
 		Vue.prototype.$http = axios.create({
-			baseURL: 'https://vue-project-2f025-default-rtdb.firebaseio.com/'
+			baseURL: 'https://stock-34cf8-default-rtdb.firebaseio.com/'
 		})
 	}
 }) 
