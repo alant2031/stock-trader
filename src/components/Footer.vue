@@ -18,7 +18,7 @@
         'mdi-facebook',
         'mdi-instagram',
       ],
-      linkedin: 'https://www.linkedin.com/in/alan8819/',    
+      linkedin: 'https://github.com/alanctnk',    
     }),
   }
 </script>
